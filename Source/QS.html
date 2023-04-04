@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>iRorro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Saul">
+    <meta name="Description" content="iRorro Sistemas Informáticos">
+    <meta name="Keywords" content="HTML,CSS">
+    <link rel="stylesheet" href="../Estilos/QS.css">
+    <script src="https://kit.fontawesome.com/8795416287.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <img src="../Img/logoiRorro.jpg" alt="Logo de la empresa" class="fotologo"> 
+    <h1 class="nombre">iRorro Sistemas Informáticos</h1>
+    <span class="botonmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</header>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="../index.html">Inicio</a>
+      <a href="Source/QS.html">¿Quiénes Somos?</a>
+      <a href="Source/QO.html">¿Qué Ofrecemos?</a>
+      <a href="Source/CO.html">Contacto</a>
+      <a href="Source/DE.html">Donde Encontrarnos</a>
+    </div>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+<div>
+    <!-- <img src="../Img/infoRorro.jpg" alt="Información" class="info"> -->
+</div>
+<footer>
+   <p class="nombrefo">iRorro Sistemas Informáticos </p> 
+    <hr>
+    <br>
+    <div class="redes">
+       <a href="https://www.instagram.com/irorro_sistemas_informaticos/" target="_blank"> <i class="fa-brands fa-instagram fa-beat fa-xl" style="color: #ba2661;"></i></a>
+       <a href="https://www.facebook.com/profile.php?id=100063441747014" target="_blank"> <i class="fa-brands fa-facebook fa-beat fa-xl" style="color: #1e4fa4;"></i></a>
+       <a target="_blank" href="https://www.google.es/maps/dir//Irorro,+C.+Real,+26,+10100+Miajadas,+C%C3%A1ceres/@39.1503742,-5.9118461,17z/data=!4m17!1m7!3m6!1s0xd144d42a9ec5295:0x8f9663d6aefd4ce4!2sIrorro!8m2!3d39.1503701!4d-5.9096574!16s%2Fg%2F11h5vyrjbh!4m8!1m0!1m5!1m1!1s0xd144d42a9ec5295:0x8f9663d6aefd4ce4!2m2!1d-5.9096574!2d39.1503701!3e2"><i class="fa-solid fa-compass fa-beat fa-xl" style="color: #009afa;"></i></a>
+    </div>
+</footer>
+</body>
+</html>
